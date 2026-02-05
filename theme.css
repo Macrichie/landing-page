@@ -1,0 +1,17 @@
+:root {
+    --primary: #009379;
+    --gray: #2d2d2d;
+    --background: #F8F9FF;
+    --white: #FFFFFF;
+    --black: #000000;
+    --pr1mary2: #79b8b0;
+    --font-family-mulish: "Mulish", Helvetica;
+    --font-family-poppins: "Poppins", Helvetica;
+    --light-gray: rgb(196, 195, 195);
+    --lighter-gray: #e1e1e1;
+    --sun-set-orange: #ff625033;
+    --light-green: #00937933;
+    --golden-yellow: #f8d57e33;
+    --light-green2: #9bd0c533;
+    --mine-shaft: #2d2d2d;
+} 
