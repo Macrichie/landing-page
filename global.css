@@ -6,15 +6,10 @@ html, body {
   height: 100%;
 }
 
-/* Ensure main fills available vertical space so footer sits at the bottom on short pages */
-main {
-    flex: 1;
-}
-
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+
     font-family: var(--font-family-poppins), serif;
     margin: 0;
     background-color: var(--background);
@@ -22,12 +17,22 @@ body {
     line-height: 1.6;
 }
 
+/* Ensure main fills available vertical space so footer sits at the bottom on short pages */
+main {
+    flex: 1 0 auto;
+}
+
+
+
 a{
     text-decoration: none;
 }
 
 /* Footer */
-
+footer {
+    flex-shrink: 0;
+    width: 100%;
+}
 
 /* body {
   display: flex;
